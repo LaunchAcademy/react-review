@@ -27,10 +27,10 @@ class QuestionList extends React.Component {
         this.changeSelectedQuestionId(questionObject.id)
       }
 
-      let showAnswer = false
+      let className = "hidden"
 
       if (this.state.selectedQuestionId === questionObject.id){
-        showAnswer = true
+        className = ""
       }
 
       return(
@@ -38,7 +38,7 @@ class QuestionList extends React.Component {
           key={questionObject.id}
           questionObject={questionObject}
           handleChangeQuestionId={handleChangeQuestionId}
-          showAnswer={showAnswer}
+          className={className}
         />
       )
     })
