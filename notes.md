@@ -1,0 +1,3 @@
+- binding
+- history of methods with `this`
+- changing state with handleclick 

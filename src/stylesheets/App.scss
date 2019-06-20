@@ -1,0 +1,19 @@
+/* YOUR STYLING HERE */
+@import "colors.scss";
+
+body {
+  background-color: $light-blue;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.padding-all {
+  padding: 2rem;
+}
+
+.title {
+  color: $blue;
+}
